@@ -26,10 +26,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <p className="ok">
-fdsdfsdfsdfds
-      </p>
-      <p className="ok">dfgdsfgdsfg</p>
+     
         <Header search={(keyword) => this.searchitem(keyword)}/>
         <List getarticle={this.state.filtredlist} />
       </div>
